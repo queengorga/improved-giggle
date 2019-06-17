@@ -1,1 +1,30 @@
 * {margin: 0; border: 0;}
+
+.logo img {
+    height: 125px; 
+    width: 300px;
+    margin: 30px 50px;
+}
+
+header {
+    height: 20vh; 
+    width: 100%;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.navbar li {
+    font-family: 'Amatic SC',
+    cursive;
+    /*font-family: 'Josefin Sans',
+    sans-serif;*/
+    font-size: 50px;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+}
