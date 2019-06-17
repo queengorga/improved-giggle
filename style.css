@@ -14,11 +14,11 @@ header {
 .navbar ul {
     display: inline-flex;
     list-style: none;
-    transform: translate(23%, -25%);
-    -webkit-transform: translate(23%, -25%);
-    -moz-transform: translate(23%, -25%);
-    -ms-transform: translate(23%, -25%);
-    -o-transform: translate(23%, -25%);
+    transform: translate(35%, -180%);
+    -webkit-transform: translate(35%, -180%);
+    -moz-transform: translate(35%, -180%);
+    -ms-transform: translate(35%, -180%);
+    -o-transform: translate(35%, -180%);
 }
 
 .navbar li {
@@ -32,4 +32,9 @@ header {
 }
 .navbar a {
     text-decoration: none;
+}
+
+.navbar img {
+    height: 35px;
+    width: 35px;
 }
