@@ -3,7 +3,7 @@
 .logo img {
     height: 125px; 
     width: 300px;
-    margin: 30px 50px;
+    margin: 30px 100px;
 }
 
 header {
@@ -27,8 +27,9 @@ header {
     /*font-family: 'Josefin Sans',
     sans-serif;*/
     font-size: 50px;
-    margin: 5px 10px;
+    margin: 5px 15px;
     font-weight: bold;
+    letter-spacing: -2px;
 }
 .navbar a {
     text-decoration: none;
@@ -37,4 +38,5 @@ header {
 .navbar img {
     height: 35px;
     width: 35px;
+    margin-left: 30px;
 }
