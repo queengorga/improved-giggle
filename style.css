@@ -1,29 +1,43 @@
-* {margin: 0; border: 0;}
+* {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'Starshine Regular';
+    src: url('Starshine-Regular.woff') format('woff');
+}
 
 .logo img {
-    height: 125px; 
-    width: 300px;
-    margin: 30px 100px;
+    height: 125px;
+    width: 275px;
+    margin: 20px 100px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 header {
-    height: 20vh; 
+    height: 20vh;
     width: 100%;
+    background: transparent;
 }
 
 .navbar ul {
     display: inline-flex;
     list-style: none;
-    transform: translate(35%, -180%);
-    -webkit-transform: translate(35%, -180%);
-    -moz-transform: translate(35%, -180%);
-    -ms-transform: translate(35%, -180%);
-    -o-transform: translate(35%, -180%);
+    transform: translate(35%, -175%);
+    -webkit-transform: translate(35%, -175%);
+    -moz-transform: translate(35%, -175%);
+    -ms-transform: translate(35%, -175%);
+    -o-transform: translate(35%, -175%);
 }
 
 .navbar li {
     font-family: 'Amatic SC',
-    cursive;
+        cursive;
     /*font-family: 'Josefin Sans',
     sans-serif;*/
     font-size: 50px;
@@ -31,12 +45,66 @@ header {
     font-weight: bold;
     letter-spacing: -2px;
 }
-.navbar a {
+
+.navbar a,
+.navbar a:visited {
     text-decoration: none;
+    color: ivory;
+    font-weight: lighter;
+}
+
+.navbar a:hover {
+    color: #662666;
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -ms-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    font-weight: bold;
 }
 
 .navbar img {
     height: 35px;
     width: 35px;
     margin-left: 30px;
+}
+
+/*Welcome Section*/
+.welcome {
+    height: 100vh;
+    width: 100%;
+    margin-top: -147px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url(img/baby.jpg);
+    /* */
+    background-size: cover;
+    background-position: top;
+}
+
+.welcome-text h1 {
+    font-family: 'Starshine Regular', cursive;
+    font-size: 75px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 2px;
+    transform: translate(20%, 300%);
+    -webkit-transform: translate(20%, 300%);
+    -moz-transform: translate(20%, 300%);
+    -ms-transform: translate(20%, 300%);
+    -o-transform: translate(20%, 300%);
+    text-shadow: 1px 1px 1px #662666;
+}
+
+.welcome-text h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: -1px;
+    transform: translate(23%, 1125%);
+    -webkit-transform: translate(23%, 1125%);
+    -moz-transform: translate(23%, 1125%);
+    -ms-transform: translate(23%, 1125%);
+    -o-transform: translate(23%, 1125%);
+    text-shadow: 1px 1px 1px #662666;
 }
