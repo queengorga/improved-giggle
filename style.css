@@ -87,24 +87,62 @@ header {
     font-weight: lighter;
     color: white;
     letter-spacing: 2px;
-    transform: translate(20%, 300%);
-    -webkit-transform: translate(20%, 300%);
-    -moz-transform: translate(20%, 300%);
-    -ms-transform: translate(20%, 300%);
-    -o-transform: translate(20%, 300%);
-    text-shadow: 1px 1px 1px #662666;
+    padding: 20rem 10rem 0 18rem;
 }
 
 .welcome-text h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: lighter;
     color: white;
     letter-spacing: -1px;
-    transform: translate(23%, 1125%);
-    -webkit-transform: translate(23%, 1125%);
-    -moz-transform: translate(23%, 1125%);
-    -ms-transform: translate(23%, 1125%);
-    -o-transform: translate(23%, 1125%);
-    text-shadow: 1px 1px 1px #662666;
+    margin: .5rem 0 0 22rem;
+}
+
+.welcome-text button{
+    height: 70px;
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: ivory;
+    background-color: #662666;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 1rem 41rem;
+}
+
+.welcome-text a {
+    height: 70px;
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: ivory;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.welcome-text button:hover {
+    background: transparent;
+    color:#662666;
+    border:2px solid #662666;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.welcome-text a:hover {
+    color:#662666;
+    border:#662666;
 }
