@@ -146,3 +146,13 @@ header {
     color:#662666;
     border:#662666;
 }
+
+.package {
+    height: 100vh;
+    width: 100%;
+}
+
+.package-left img{
+    height: 100%;
+    width: 50%;
+}
