@@ -75,8 +75,7 @@ header {
     width: 100%;
     margin-top: -147px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-        url(img/baby.jpg);
-    /* */
+    url(img/baby.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -88,15 +87,15 @@ header {
     color: white;
     letter-spacing: 2px;
     padding: 20rem 10rem 0 18rem;
+    text-shadow: .5px .5px .5px #662666; 
 }
 
 .welcome-text h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
-    font-weight: lighter;
     color: white;
-    letter-spacing: -1px;
     margin: .5rem 0 0 22rem;
+    text-shadow: 1px 1px .5px #662666;
 }
 
 .welcome-text button{
