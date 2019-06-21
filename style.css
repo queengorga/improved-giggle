@@ -146,19 +146,10 @@ header {
     border:#662666;
 }
 
-.package {
-    height: 100vh;
-    width: 100%;
-}
-
-.package-left img{
-    height: 100%;
-    width: 50%;
-}
 
 /*Featured Section*/
 .featured {
-    height: 80vh;
+    height: 70vh;
     width: 100%; 
 }
 
@@ -177,4 +168,25 @@ header {
 .featured-container img {
     margin: 5rem auto; 
     
+}
+
+/*Package Section*/
+.package {
+    height: 100vh;
+    width: 100%;
+}
+
+.package-container {
+    display: inline; 
+}
+
+.package-left {
+    background-image: url(img/package.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.package-right {
+    background-color: #ffe1da; 
+    height: 80vh;
 }
