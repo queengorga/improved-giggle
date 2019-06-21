@@ -158,7 +158,7 @@ header {
 
 /*Featured Section*/
 .featured {
-    height: 50vh;
+    height: 80vh;
     width: 100%; 
 }
 
@@ -171,6 +171,7 @@ header {
 }
 .featured-container {
     display: inline-flex;
+    margin: auto 12rem;
 }
 
 .featured-container img {
