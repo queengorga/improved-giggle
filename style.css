@@ -228,10 +228,10 @@ header {
     font-weight: bold;
     border: 2px solid #662666;
     transition: .5s ease-out;
-    -webkit-transition: .5s ease-out;
-    -moz-transition: .5s ease-out;
-    -ms-transition: .5s ease-out;
-    -o-transition: .5s ease-out;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
 }
 
 /*How It Works Section*/
@@ -245,8 +245,8 @@ header {
 
 .how h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: bolder;
     text-align: center; 
     padding: 45px;
     color: #662666;
@@ -264,3 +264,10 @@ header {
     margin: -14px 10px 0 15px;
     padding: 5px 5px;
 }
+
+.how-box h1 {
+    font-family: 'Starshine Regular';
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4c2666;
+} 
