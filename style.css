@@ -233,3 +233,21 @@ header {
     -ms-transition: .5s ease-out;
     -o-transition: .5s ease-out;
 }
+
+/*How It Works Section*/
+
+.how {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/confetti.jpg);
+    background-size: cover; 
+}
+
+.how h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center; 
+    padding: 65px;
+    color: #662666;
+}
