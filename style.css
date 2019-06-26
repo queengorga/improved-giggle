@@ -344,3 +344,32 @@ div.desc h4 {
     -o-border-radius: 10px;
     margin: 3rem 41rem;
 }
+
+/*Guarantee Section*/
+.guarantee {
+    height: 65vh;
+    width: 100%;
+    background-color: darkslateblue;
+    background-image: url(img/newborncocoon.jpg);
+    background-size: 100rem 50rem; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    opacity: .85;
+}
+
+.guarantee h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: ivory;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.guarantee h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: ivory;
+    text-align: center;
+    margin: 1rem 10rem;
+}
