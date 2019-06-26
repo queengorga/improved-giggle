@@ -373,3 +373,14 @@ div.desc h4 {
     text-align: center;
     margin: 1rem 10rem;
 }
+
+.guarantee-box ul{
+    display: inline-flex;
+}
+
+.guarantee-box h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color: ivory;
+    text-align: center; 
+}
