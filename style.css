@@ -376,11 +376,19 @@ div.desc h4 {
 
 .guarantee-box ul{
     display: inline-flex;
+    list-style: none;
+    margin-left: 15rem;
 }
 
 .guarantee-box h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     color: ivory;
-    text-align: center; 
+    text-align: center;      
+    margin: 2rem;
+}
+
+.guarantee-box li {
+    text-align: center;
+    margin: 1rem; 
 }
