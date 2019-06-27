@@ -392,3 +392,98 @@ div.desc h4 {
     text-align: center;
     margin: 1rem; 
 }
+
+/*Reviews Section*/
+.reviews {
+    height: 125vh;
+    width: 100%;
+}
+
+.reviews h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+    color: #662666;
+}
+
+.reviews h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #662666;
+    padding: 20px;
+}
+
+.reviews-container {
+    display: inline-flex;
+    padding: 0 125px;
+}
+
+.reviews-box {
+    border: 2px solid #4c2666;
+    margin: 10px 10px;
+    padding: 30px 20px;
+    width: 250px;
+    height: 500px;
+    background-image: url(img/giftregistry.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.text {
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.stars {
+    list-style: none;
+    display: inline-flex;
+}
+
+.stars ul {
+    margin-left: -40px;
+}
+
+.stars img {
+    height: 30px;
+    width: 30px;
+    margin: 80px 2px -20px;
+}
+
+.customer {
+    display: inline-flex;
+    padding-top: 30px;
+}
+.customer img {
+    border: 1px solid black;
+    height: 70px;
+    width: 70px ;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.customer ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.customer h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.customer h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+}
