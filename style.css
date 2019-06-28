@@ -104,17 +104,17 @@ header {
     height: 70px;
     width: 200px;
     font-family: 'Amatic SC', cursive;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     text-decoration: none;
     color: ivory;
     background-color: #662666;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    margin: 1rem 41rem;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin: 2rem 41rem;
 }
 
 .welcome-text a {
@@ -433,7 +433,7 @@ div.desc h4 {
     background-image: url(img/giftregistry.jpg);
     background-size: 500px;
     background-repeat: no-repeat;
-    background-blend-mode: multiply;
+    background-blend-mode: luminosity;
 }
 
 .text {
@@ -463,9 +463,9 @@ div.desc h4 {
     padding-top: 30px;
 }
 .customer img {
-    border: 1px solid black;
-    height: 70px;
-    width: 70px ;
+    border: 2px solid #4c2666;
+    height: 75px;
+    width: 75px ;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -488,4 +488,5 @@ div.desc h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
     margin-top: -10px;
+    color: #4c2666;
 }
