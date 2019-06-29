@@ -110,10 +110,10 @@ header {
     color: ivory;
     background-color: #662666;
     border-radius: 10px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     margin: 2rem 41rem;
 }
 
@@ -445,12 +445,13 @@ div.desc h4 {
     background-image: url(img/giftregistry.jpg);
     background-size: 500px;
     background-repeat: no-repeat;
-    background-blend-mode: luminosity;
 }
 
 .text {
     font-family: 'Josefin Sans',sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: lighter;
     text-align: justify;
     color: black;
 }
