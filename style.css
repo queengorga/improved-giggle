@@ -84,19 +84,20 @@ header {
 
 .welcome-text h1 {
     font-family: 'Starshine Regular', cursive;
-    font-size: 75px;
+    font-size: 6rem;
     font-weight: lighter;
     color: white;
     letter-spacing: 2px;
-    padding: 12rem 10rem 0 18rem;
+    padding: 15rem 10rem 0 20rem;
     text-shadow: .5px .5px .5px #662666; 
 }
 
 .welcome-text h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-weight: lighter; 
     color: white;
-    margin: .5rem 0 0 22rem;
+    margin: .75rem 0 0 25rem;
     text-shadow: 1px 1px .5px #662666;
 }
 
@@ -104,7 +105,7 @@ header {
     height: 70px;
     width: 200px;
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: bold;
     text-decoration: none;
     color: ivory;
@@ -114,7 +115,7 @@ header {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    margin: 2rem 41rem;
+    margin: 1em 19em;
 }
 
 .welcome-text a {
