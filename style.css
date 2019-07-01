@@ -248,23 +248,23 @@ header {
 
 .how h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: bolder;
     text-align: center; 
-    padding: 50px;
+    padding: .70em;
     color: #662666;
 }
 
 div.how-box {
     border: 4px solid #662666;
-    height: 545px;
+    height: 550px;
     background-color: ivory;
     color: #662666;
 }
 
 div.how-box img {
-    width: 100%;
-    height: auto;
+    width: 468px;
+    height: 270px;
 }
 
 div.number {
@@ -337,7 +337,7 @@ div.desc h4 {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    margin: 3rem 41rem;
+    margin: 1em 21em;
 }
 
 .how button:hover {
