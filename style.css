@@ -367,7 +367,7 @@ div.desc h4 {
 
 .guarantee h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 50px;
+    font-size: 4rem;
     color: ivory;
     text-align: center;
     padding-top: 4rem;
@@ -375,7 +375,8 @@ div.desc h4 {
 
 .guarantee h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.50rem;
+    font-weight: lighter;
     color: ivory;
     text-align: center;
     margin: 1rem 10rem;
@@ -384,21 +385,23 @@ div.desc h4 {
 .guarantee-box ul{
     display: inline-flex;
     list-style: none;
-    margin-left: 15rem;
+    margin: 2rem 20rem;
 }
 
 .guarantee-box h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: ivory;
     text-align: center;      
-    margin: 2rem;
+    margin: 2rem 4rem;
 }
 
 .guarantee-box li {
     text-align: center;
     margin: 1rem; 
 }
+
+
 
 /*Reviews Section*/
 .reviews {
