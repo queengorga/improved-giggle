@@ -10,7 +10,7 @@
 
 .logo img {
     height: 125px;
-    width: 275px;
+    width: 300px;
     margin: 20px 100px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -53,12 +53,11 @@ header {
 
 .navbar a:hover {
     color: #662666;
-   
-    transition: .25s ease-in-out;
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -ms-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in;
+    -webkit-transition: .25s ease-in;
+    -moz-transition: .25s ease-in;
+    -ms-transition: .25s ease-in;
+    -o-transition: .25s ease-in;
     font-weight: bold;
 }
 
@@ -408,39 +407,39 @@ div.desc h4 {
 
 /*Reviews Section*/
 .reviews {
-    height: 115vh;
+    height: 100vh;
     width: 100%;
 }
 
 .reviews h1 {
     font-family: 'Amatic SC', cursive;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: bolder;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3rem;
     color: #662666;
 }
 
 .reviews h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-align: center;
     color: #662666;
-    padding: 20px;
+    padding: 2rem;
 }
 
 .reviews-container {
     display: inline-flex;
-    padding: 0 125px;
+    padding: 0 10.5rem;
 }
 
 .reviews-box {
     border: 2px solid #4c2666;
-    margin: 10px 10px;
+    margin: 10px;
     padding: 30px 20px;
-    width: 250px;
-    height: 500px;
+    width: 325px;
+    height: 550px;
     background-image: url(img/giftregistry.jpg);
     background-size: 500px;
     background-repeat: no-repeat;
@@ -448,7 +447,7 @@ div.desc h4 {
 
 .text {
     font-family: 'Josefin Sans',sans-serif;
-    font-size: 16px;
+    font-size: 1.15rem;
     line-height: 1.25;
     font-weight: lighter;
     text-align: justify;
@@ -465,9 +464,9 @@ div.desc h4 {
 }
 
 .stars img {
-    height: 30px;
-    width: 30px;
-    margin: 80px 2px -20px;
+    height: 40px;
+    width: 40px;
+    margin: 80px 2px -6px;
 }
 
 .customer {
@@ -476,8 +475,8 @@ div.desc h4 {
 }
 .customer img {
     border: 2px solid #4c2666;
-    height: 75px;
-    width: 75px ;
+    height: 90px;
+    width: 90px ;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -487,18 +486,20 @@ div.desc h4 {
 
 .customer ul {
     list-style: none;
-    margin-left: -30px;
+    margin-left: -20px;
 }
 
 .customer h3{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    margin-left: -20px;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    margin-left: -1.5em;
 }
 
 .customer h5 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
-    margin-top: -10px;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: -1.15rem .25rem;
     color: #4c2666;
 }
