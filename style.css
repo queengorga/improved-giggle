@@ -28,17 +28,17 @@ header {
 .navbar ul {
     display: inline-flex;
     list-style: none;
-    transform: translate(30%, -140%);
-    -webkit-transform: translate(30%, -140%);
-    -moz-transform: translate(30%, -140%);
-    -ms-transform: translate(30%, -140%);
-    -o-transform: translate(30%, -140%);
+    transform: translate(30%, -125%);
+    -webkit-transform: translate(30%, -125%);
+    -moz-transform: translate(30%, -125%);
+    -ms-transform: translate(30%, -125%);
+    -o-transform: translate(30%, -125%);
 }
 
 .navbar li {
     font-family: 'Amatic SC', cursive;
     font-size: 3.50rem;
-    margin: 5px 25px;
+    margin: .25em .42em;
     font-weight: bold;
     letter-spacing: -2px;
     color: #4c2666;
@@ -53,6 +53,7 @@ header {
 
 .navbar a:hover {
     color: #662666;
+   
     transition: .25s ease-in-out;
     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
