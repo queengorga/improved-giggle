@@ -519,7 +519,7 @@ div.desc h4 {
 }
 
 .footer-column {
-    margin: 3em 2em 2em 4em;
+    margin: 3em 2em 2em 5.5em;
 }
 
 .footer-column h2 {
@@ -528,6 +528,7 @@ div.desc h4 {
     font-weight: bolder;
     color: #4c2666;
     letter-spacing: .25rem;
+    margin-bottom: .35em;
 } 
 
 .footer-column h5 {
@@ -537,12 +538,14 @@ div.desc h4 {
     color: #4c2666;
 }
 
-.footer-column img {
+.footer-logo {
     height: 6em;
     width: 12em;
+    margin-left: -2rem;
 }
 
 .icons img {
     height: 50px; 
     width: 50px;
+    margin: .15em;
 }
