@@ -540,3 +540,8 @@ div.desc h4 {
     height: 6em;
     width: 12em;
 }
+
+.icons img {
+    height: 50px; 
+    width: 50px;
+}
