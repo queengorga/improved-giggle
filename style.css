@@ -437,6 +437,7 @@ div.desc h4 {
 
 .reviews-box {
     border: 2px solid #4c2666;
+    background-color: ivory;
     margin: 10px;
     padding: 30px 20px;
     width: 325px;
@@ -450,7 +451,7 @@ div.desc h4 {
     font-family: 'Josefin Sans',sans-serif;
     font-size: 1.15rem;
     line-height: 1.25;
-    font-weight: lighter;
+    font-weight: bolder;
     text-align: justify;
     color: black;
 }
@@ -500,7 +501,7 @@ div.desc h4 {
 .customer h5 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: bold;
     margin: -1.15rem .25rem;
     color: #4c2666;
 }
